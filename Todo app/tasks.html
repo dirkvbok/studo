@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Studo</title>
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	
+	<body>		
+		
+		<header id="header">
+			<div class="innertube">
+				<img src="images/logo.jpg" alt="logo">
+			</div>
+		</header>
+		
+		<div id="wrapper">
+			
+			<main>
+				<div id="content">
+					<div class="innertube">
+						<section class="todo-input">
+							<input id="new-todo" placeholder="What needs to be done?" type="text" /><button id="btnAdd">+</button><button id="btnSort">Sort on urgency</button><button id="btnSort2">Sort on date</button>
+						</section>
+						<section id="foo" class="todos">
+							<ul id="todos">
+							</ul>
+						</section>
+					</div>
+				</div>
+			</main>
+			
+			<nav id="nav">
+				<div class="innertube">
+					<h3>Lists</h3>
+					<ul>
+						<li><a href="#">all</a></li>
+						<li><a href="#">holiday</a></li>
+						<li><a href="#">party</a></li>
+					</ul>
+					<h3>Agenda</h3>
+					<h3>Archive</h3>
+				</div>
+				<div id="settings" class="innertube">
+					<h3>Settings</h3>
+				</div>
+			</nav>
+			
+		</div>
+		<footer>
+			<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+			<script src="scripts/script.js"></script>
+		</footer>
+	</body>
+</html>

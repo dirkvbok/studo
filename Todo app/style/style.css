@@ -1,0 +1,151 @@
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+}
+
+#header {
+	border-bottom-style: solid;
+	border-width:2px;
+	border-color:grey;
+	height: 160px;
+	margin-top:30px;
+	padding-bottom: 8px;
+	margin-bottom: 25px;
+	width: 1000px;
+}
+
+#header img {
+	margin: 0;
+	margin-left:100px;
+}
+
+main {
+	float: right;
+	position:absolute;
+	margin-left: 170px;
+	width: 800px;
+}
+
+#nav {
+	float: left;
+	width: 150px;
+	padding-right: 15px;
+	border-right-style: solid;
+	border-width: 2px;
+	border-color: grey;
+}
+
+#wrapper {
+	overflow: hidden;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#content h1 {
+	padding:0px;
+	margin:0px;
+}
+
+.innertube {
+	margin: 15px; /* Padding for content */
+	margin-top: 0;
+}
+
+p {
+	color: #555;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom:8px;
+}
+nav ul li:before {
+	content: "\00BB \0020";
+}
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+nav li {
+	padding-left: 15px;
+}
+
+nav h3 {
+	padding:0px;
+	margin:0px;
+}
+
+#settings{
+	margin-top:75px;;
+}
+
+#content p {
+	font-size: 18px;
+	padding:0;
+	margin:0;
+}
+.todos ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-top:10px;
+	width: 600px;
+}
+
+.todos li{
+	border:1px solid #ccc;
+	background: #eee;
+	padding: 5px 10 px;
+	color: #000;
+}
+
+.todos li:hover > button{
+	visibility: visible;
+}
+
+.todos li:hover > input{
+	visibility: visible;
+}
+
+.todos li:hover > select{
+	visibility: visible;
+}
+
+.todos span {
+	padding-left: 7px;
+	cursor: default;
+}
+
+.todos button {
+	width: 20px;
+	height: 7px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 6px;
+	margin-right: 8px;
+	margin-left: 5px;
+	background-color: black;
+	border-color: black;
+	visibility:hidden;
+}
+
+.todos input {
+	visibility:hidden;
+}
+
+.todos select {
+	margin-left: 15px;
+	visibility: hidden;
+}
+
+.datebox {
+	float: right;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: grey;
+}	
